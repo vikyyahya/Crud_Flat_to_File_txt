@@ -75,19 +75,19 @@ public class CrudJava {
         String record;
 
         System.out.println(" --------------------------------------------------------------------------------- ");
-        System.out.println("|	ID	Name 			Age			Address 		  |");
+        System.out.println("|	ID	Name 			Age			Address 		   ");
         System.out.println(" --------------------------------------------------------------------------------- ");
 
         while ((record = br.readLine()) != null) {
 
             StringTokenizer st = new StringTokenizer(record, ",");
 
-            System.out.println("|	" + st.nextToken() + "	" + st.nextToken() + " 		" + st.nextToken()
-                    + "			" + st.nextToken() + "      |");
+            System.out.println("|	" + st.nextToken() + "	" + st.nextToken() + " 		    ß" + st.nextToken()
+                    + "			" + st.nextToken() + "       ");
 
         }
 
-        System.out.println("|	                                            	                            |");
+        System.out.println("|	                                            	                            ");
         System.out.println(" --------------------------------------------------------------------------------- ");
         br.close();
 
@@ -140,7 +140,7 @@ public class CrudJava {
         ID = strInput.nextLine();
 
         System.out.println(" --------------------------------------------------------------------------------- ");
-        System.out.println("|	ID	Name 			Age			Address 		  |");
+        System.out.println("|	ID	Name 			Age			Address 		   ");
         System.out.println(" --------------------------------------------------------------------------------- ");
 
         while ((record = br.readLine()) != null) {
@@ -153,7 +153,7 @@ public class CrudJava {
 
         }
 
-        System.out.println("|	                                            	                            |");
+        System.out.println("|	                                            	                             ");
         System.out.println(" --------------------------------------------------------------------------------- ");
 
         br.close();
@@ -176,7 +176,7 @@ public class CrudJava {
         System.out.println("Enter the Employee ID: ");
         ID = strInput.nextLine();
         System.out.println(" --------------------------------------------------------------------------------- ");
-        System.out.println("|	ID	Name 			Age			Address 		  |");
+        System.out.println("|	ID	Name 			Age			Address 		   ");
         System.out.println(" --------------------------------------------------------------------------------- ");
 
         while ((record = br.readLine()) != null) {
@@ -188,7 +188,7 @@ public class CrudJava {
             }
 
         }
-        System.out.println("|	                                            	                            |");
+        System.out.println("|	                                            	                             ");
         System.out.println(" --------------------------------------------------------------------------------- ");
 
         br.close();
