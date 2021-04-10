@@ -154,10 +154,14 @@ public class CrudJava {
         while ((record = br.readLine()) != null) {
 
             StringTokenizer st = new StringTokenizer(record, ",");
-            if (record.contains(ID)) {
+            String [] id_temp = record.split(",",30);
+            if(id_temp[0].equals(ID)){
                 System.out.println("|	" + st.nextToken() + "	" + st.nextToken() + " 		" + st.nextToken()
-                        + "			" + st.nextToken() + "      |");
+                + "			" + st.nextToken() + "      |");            
             }
+            // if (record.contains(ID)) {
+                
+            // }
 
         }
 

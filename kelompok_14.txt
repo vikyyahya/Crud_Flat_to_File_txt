@@ -1,3 +1,4 @@
 1 ,viky yahya,25,Tangerang
 2 ,Mulyadi,24,Tabgerang
 3,Fulan Wa,23,Jakarta
+4,Nanaia,25,Jakarta
