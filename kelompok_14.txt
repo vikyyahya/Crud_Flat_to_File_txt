@@ -1,5 +1,3 @@
-1,viky yahya,25,Jakarta Indonesia
-2,Mulyadi,20,Tangerang Indonesia
-3,Ulfiana,20,Tangerang Indonesia
-4,Suryadian,25,Bekasi Indonesia
-5,Yainab,24,Jakarta Indonesia
+1 ,viky yahya,25,Tangerang
+2 ,Mulyadi,24,Tabgerang
+3,Fulan Wa,23,Jakarta

@@ -82,7 +82,7 @@ public class CrudJava {
 
             StringTokenizer st = new StringTokenizer(record, ",");
 
-            System.out.println("|	" + st.nextToken() + "	" + st.nextToken() + " 		    ß" + st.nextToken()
+            System.out.println("|	" + st.nextToken() + "	" + st.nextToken() + " 		 " + st.nextToken()
                     + "			" + st.nextToken() + "       ");
 
         }
@@ -110,8 +110,16 @@ public class CrudJava {
 
         while ((record = br.readLine()) != null) {
 
-            if (record.contains(ID))
+            String [] id_temp = record.split(",",30);
+            if(id_temp[0].equals(ID)){
                 continue;
+            }
+
+            // if (record.contains(ID))
+            //     continue;
+            
+            // System.out.println("record: " + record);
+
 
             bw.write(record);
             bw.flush();
